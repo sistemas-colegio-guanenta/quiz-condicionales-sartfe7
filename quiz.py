@@ -6,7 +6,13 @@ print("----- VERIFICAR TRIANGULO ----")
 print("------------------------------")
 
 # input
-
-# processing
-
-# output
+a = float(input("Ingrese la longitud del lado a: "))
+b = float(input("Ingrese la longitud del lado b: "))
+c = float(input("Ingrese la longitud del lado c: "))
+# processing and output
+if a + b > c:
+    if a + c > b:
+        if c + b > a:
+            print("si se puede reaizar un triangulo")
+        else:
+            print("no se puede realizar ser un triangulo")
